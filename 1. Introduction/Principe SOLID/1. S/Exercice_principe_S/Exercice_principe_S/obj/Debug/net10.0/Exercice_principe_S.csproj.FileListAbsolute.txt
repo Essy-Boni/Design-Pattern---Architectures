@@ -1,0 +1,14 @@
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\Exercice_principe_S.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\Exercice_principe_S.AssemblyInfoInputs.cache
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\Exercice_principe_S.AssemblyInfo.cs
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\Exercice_principe_S.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\bin\Debug\net10.0\Exercice_principe_S.exe
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\bin\Debug\net10.0\Exercice_principe_S.deps.json
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\bin\Debug\net10.0\Exercice_principe_S.runtimeconfig.json
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\bin\Debug\net10.0\Exercice_principe_S.dll
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\bin\Debug\net10.0\Exercice_principe_S.pdb
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\Exercice_principe_S.dll
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\refint\Exercice_principe_S.dll
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\Exercice_principe_S.pdb
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\Exercice_principe_S.genruntimeconfig.cache
+C:\Users\Administrateur\OneDrive - M2I\Documents\Design Pattern & Architectures\1. Introduction\Principe SOLID\1. S\Exercice_principe_S\Exercice_principe_S\obj\Debug\net10.0\ref\Exercice_principe_S.dll

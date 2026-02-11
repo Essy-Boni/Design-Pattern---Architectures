@@ -3,4 +3,5 @@
   <Project Path="Exercice1/Exercice1_CreationalPattern.csproj" />
   <Project Path="Exercice2_StructuralPattern/Exercice2_StructuralPattern.csproj" />
   <Project Path="Exercice4_FactoryMethod/Exercice4_FactoryMethod/Exercice4_FactoryMethod.csproj" Id="b76b8c71-cf8c-4949-9b37-f3cb4998780f" />
+  <Project Path="TP Atelier du père noel/TP_SantaFactory/TP_SantaFactory.csproj" Id="884713c0-45fa-40d1-b0e2-51c315903315" />
 </Solution>
