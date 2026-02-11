@@ -16,7 +16,7 @@ namespace TP_SantaFactory.Creational.FactoryMethod
                 { "doll", new DollFactory() },
                 { "train", new TrainFactory() },
                 { "gameboy", new GameBoyFactory() },
-                { "terminator", new GameBoyFactory() }
+                { "terminator", new TerminatorFactory() }
 
             };
         }

@@ -11,23 +11,23 @@ internal class Program
         Console.WriteLine("\nTP Atelier du Pere Noel");
 
         var production = new ProductionManager();
-        var lutin1 = new Lutin("Lutin 1");
-        var lutin2 = new Lutin("Lutin 2");
+        var lutin_Prod = new Lutin("Lutin_Prod");
+        var lutin_Deliveroo = new Lutin("Lutin_Deliveroo");
 
-        production.AddObserver(lutin1);
-        production.AddObserver(lutin2);
+        production.AddObserver(lutin_Prod);
+        production.AddObserver(lutin_Deliveroo);
 
         ToyFactory factory = new DollFactory();
         var Toy = factory.CreateToy();
         Toy.GetDescription();
 
-        lutin1.Notifier($"Nouveau jouet produit : {Toy.GetDescription()} !!!");
+        lutin_Prod.Notifier($"Nouveau jouet produit : {Toy.GetDescription()} !!!");
 
         ToyFactory factory2 = new TrainFactory();
         var Toy2 = factory2.CreateToy();
         Toy.GetDescription();
 
-        lutin2.Notifier($"Nouveau jouet produit : {Toy2.GetDescription()} !!!");
+        lutin_Prod.Notifier($"Nouveau jouet produit : {Toy2.GetDescription()} !!!");
         
 
         Console.WriteLine("\nJouets avant decoration:");
@@ -39,42 +39,37 @@ internal class Program
 
         // Decorer les Toys
         IToy dollDecore = new Ribbon(Toy);
-        IToy trainDecoree = new Wrapping(
+        IToy trainDecore = new Wrapping(
             new Ribbon(Toy2)
         );
 
         Console.WriteLine("\nJouets avec decoration :");
         Console.WriteLine("==========================");
         Console.WriteLine(dollDecore.GetDescription());
-        Console.WriteLine(trainDecoree.GetDescription());
+        Console.WriteLine(trainDecore.GetDescription());
+
+        lutin_Deliveroo.Notifier($"Cadeaux prêts pour la cheminée : {dollDecore.GetDescription()} ; {trainDecore.GetDescription()} !!!");
 
         Console.WriteLine("\nImplémentation d'une Big Factory :");
         Console.WriteLine("====================================");
        
-        var lutin3 = new Lutin("Lutin 3");
-        var lutin4 = new Lutin("Lutin 4");
-        production.AddObserver(lutin3);
-        production.AddObserver(lutin4);
+        //var lutin3 = new Lutin("Lutin 3");
+        //var lutin4 = new Lutin("Lutin 4");
+        //production.AddObserver(lutin3);
+        //production.AddObserver(lutin4);
 
 
         var bigFactory = new BigFactory();
 
         var doll = bigFactory.ProduceToy("doll");
-        lutin1.Notifier($"[ALERT]Nouveau jouet produit : {doll.GetDescription()} !!!");
-
         var train = bigFactory.ProduceToy("train");
-        lutin2.Notifier($"[ALERT]Nouveau jouet produit : {train.GetDescription()} !!!");
-
-        var gameboy = bigFactory.ProduceToy("gameboy");
-        lutin3.Notifier($"[ALERT]Nouveau jouet produit : {gameboy.GetDescription()} !!!");
-
+        var gameBoy = bigFactory.ProduceToy("gameboy");
         var terminator = bigFactory.ProduceToy("terminator");
-        lutin4.Notifier($"[ALERT]Nouveau jouet produit : {terminator.GetDescription()} !!!");
+        lutin_Prod.Notifier($"[ALERT]Nouveaux jouets produits : {doll.GetDescription()}, {train.GetDescription()}, {gameBoy.GetDescription()}, {terminator.GetDescription()}!!!!");
 
-        IToy train2Decore = new Wrapping(
-            new Ribbon(train)
-        );
-        lutin2.Notifier($"Cadeau prêt pour la cheminée : {train2Decore.GetDescription()} !!!");
+        IToy train2Decore = new Wrapping(new Ribbon(train));
+        IToy gameBoyDecore = new Wrapping(gameBoy);
+        lutin_Deliveroo.Notifier($"Cadeau prêt pour la cheminée : {train2Decore.GetDescription()}, {gameBoyDecore.GetDescription()}!!!");
 
         //// Test jouet inconnu
         //try
