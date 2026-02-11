@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DemoDesignPattern/DemoDesignPattern.csproj" />
+  <Project Path="Exercice1/Exercice1_CreationalPattern.csproj" />
+  <Project Path="Exercice2_StructuralPattern/Exercice2_StructuralPattern.csproj" />
+  <Project Path="Exercice4_FactoryMethod/Exercice4_FactoryMethod/Exercice4_FactoryMethod.csproj" Id="b76b8c71-cf8c-4949-9b37-f3cb4998780f" />
+</Solution>
